@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Contador de letras</title>
+</head>	
+<body>
+	<h1>Contador de letras</h1>
+    <p>Esta função conta quantas vezes uma determinada letra aparece em uma frase escolhida pela pessoa usuária.</p>
+	<div id="entrada">
+            <p>
+				<h2>Digite uma frase</h2>
+					<input name="inputFrase" id="inputFrase" type="text">
+				<h2>Digite uma letra</h2>
+					<input name="inputLetra" id="inputLetra" type="text"> 
+				<h2>Aperte o botão abaixo para prosseguir</h2>
+				<input type="button" value="Contar letra" onclick="contadorDeLetra()">
+			</p>
+	</div>
+	<div id="saida">
+		<p>Preencha os dados acima e aperte o botão.</p>
+	</div>
+	<script>
+		function contadorDeLetra() {
+			var forFrase = document.getElementById('inputFrase')
+			var forLetra = document.getElementById('inputLetra')
+			//Usei o método "toLowerCase()" para que a comparação seja indiferente a maiúsculas ou minúsculas.
+			var frase = String(forFrase.value.toLowerCase())
+			var letra = String(forLetra.value.toLowerCase())
+			var contador = 0
+			for (var index = 0; index < frase.length; index++) {
+				
+				if (frase[index] == letra) {
+					contador++
+				}
+			}
+			window.alert(contador)
+		}
+	</script>
+</body>	
+</html>

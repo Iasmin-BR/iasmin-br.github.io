@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Calculadora</title>
+</head>	
+</head>
+<body>
+	<div id="formulario">
+		<h1>Calculadora</h1>
+		<input type="number" name="primNum" id="primeiroNumero">
+		<select name="operadores" id="operador">
+			<option value="+">somar</option>
+			<option value="-">subtrair</option>
+		</select>
+		<input type="number" name="segNum" id="segundoNumero">
+		<input type="button" name="calc" value="Calcular" id="botão" onclick="calcular()">
+	</div>
+	<div id="resultado">
+		<h1>Resultado</h1>
+	</div>
+
+	<script>
+		function calcular() {
+			var tn1 = document.getElementById("primeiroNumero")
+			var tn2 = document.getElementById("segundoNumero")
+			var top = document.getElementById("operador")
+			var n1 = Number(tn1.value)
+			var n2 = Number(tn2.value)
+			var op = String(top.value)
+			var res = 0;
+			
+			if (op == "+") {
+				res = n1 + n2
+				window.alert(res)
+			} else if (op == "-") {
+				res = n1 - n2
+				window.alert(res)
+			} else {
+				window.alert("Operador desconhecido. Cheque seus dados.")
+			}
+		}
+	</script>
+</body>
+</html>
