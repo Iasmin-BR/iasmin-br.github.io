@@ -13,5 +13,5 @@ Os exemplos do Mundo 1 foram criados com base no Curso Introdutório de JavaScri
 Para realizar o Curso Introdutório de JavaScript oferecido pela Trybe e aprender passo-a-passo o código por trás desses exemplos, basta acessar:
 👉 https://freecourse.betrybe.com/
 
-### 🌎 Mundo 2: Em breve, mais projetos!
+### 🌎 Mundo 2: Em breve, mais mundos para explorar!
 
