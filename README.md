@@ -1,4 +1,4 @@
-# 👽 Repositório da Iasmin-BR
+# 👽 Repositório de projetos - Iasmin-BR
 
 ## 🛸 O que você vai encontrar por aqui?
 
