@@ -7,21 +7,27 @@
 		<title>Contador de letras</title>
 </head>	
 <body>
-	<h1>Contador de letras</h1>
-    <p>Esta função conta quantas vezes uma determinada letra aparece em uma frase escolhida pela pessoa usuária.</p>
-	<div id="entrada">
-            <p>
-				<h2>Digite uma frase</h2>
-					<input name="inputFrase" id="inputFrase" type="text">
-				<h2>Digite uma letra</h2>
-					<input name="inputLetra" id="inputLetra" type="text"> 
-				<h2>Aperte o botão abaixo para prosseguir</h2>
-				<input type="button" value="Contar letra" onclick="contadorDeLetra()">
-			</p>
-	</div>
-	<div id="saida">
-		<p>Preencha os dados acima e aperte o botão.</p>
-	</div>
+	<main>
+		<h1>🌎 Contador de letras</h1>
+		<p>Esta função conta quantas vezes uma determinada letra aparece em uma frase escolhida pela pessoa usuária.</p>
+		<div id="entrada">
+				<p>
+					<h2>Digite uma frase</h2>
+						<input name="inputFrase" id="inputFrase" type="text">
+					<h2>Digite uma letra</h2>
+						<input name="inputLetra" id="inputLetra" type="text"> 
+					<h3>🛸 Aperte o botão ao lado para prosseguir ➜ <input type="button" value="Contar letra" onclick="contadorDeLetra()"></h2> 
+					
+				</p>
+		</div>
+		<div id="saida">
+			<p>Preencha os dados acima e aperte o botão.</p>
+		</div>
+		<aside>
+			<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" align="left" width="75">
+			<p>Quer ter acesso aos <strong>códigos-fonte</strong> desses exemplos? <br>Acesse a minha <a href="https://github.com/Iasmin-BR/iasmin-br.github.io" target="_blank">página de repositório no GitHub</a> e navegue pelas pastas de cada projeto.</p>
+		</aside>
+	</main>
 	<script>
 		function contadorDeLetra() {
 			var forFrase = document.getElementById('inputFrase')
