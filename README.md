@@ -11,6 +11,7 @@ Este repositório foi criado com o objetivo de compartilhar exemplos básicos de
 Os exemplos do Mundo 1 foram criados com base no Curso Introdutório de JavaScript, oferecido gratuitamente pela Trybe - Escola de Programação. Com os projetos básicos implementados aqui, podemos observar o que os códigos demonstrados durante o curso geram de interações entre a pessoa usuária e nossas páginas web, facilitando o entendimento de como essas funções são usadas na prática, dentro do contexto de desenvolvimento web.
 
 #### Exemplos
+* [Verificador de Palíndromo](https://iasmin-br.github.io/Calculadora/index.htmlf)
 * [Calculadora básica](https://iasmin-br.github.io/Calculadora/index.htmlf)
 * [Contador de letras repetidas](https://iasmin-br.github.io/Contador%20de%20letras%20repetidas/index.html)
 
