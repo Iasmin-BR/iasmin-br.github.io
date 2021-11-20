@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Impressão de asteriscos</title>
+</head>	
+</head>
+<body>
+	<main>
+		<div id="formulario">
+			<h1>🌎 Gerador de Quadrado de Asteriscos</h1>
+			<p>Esta função recebe um número oferecido pela pessoa usuária e gera um quadrado de asteriscos de altura e largura iguais ao número estipulado.
+			<h2>Digite um número:</h2>
+			<input type="number" name="num" id="num">
+			<input type="button" name="calc" value="Verificar" id="botão" onclick="gerarQuadrado()">
+		</div>
+		<div id="resultado">
+			<h2>🛸 Resultado</h2>
+			<p>Escolha um número e clique no botão "verificar" para conferir o resultado abaixo.</p>
+			<textarea id="textOutput" rows="10" cols="70" readonly></textarea>
+		</div>
+		<aside>
+			<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" align="left" width="75">
+			<p>Quer ter acesso aos <strong>códigos-fonte</strong> desses exemplos? <br>Acesse a minha <a href="https://github.com/Iasmin-BR/iasmin-br.github.io" target="_blank">página de repositório no GitHub</a> e navegue pelas pastas de cada projeto.</p>
+		</aside>
+	</main>
+	<script>
+		function gerarQuadrado() {
+			var numInput = document.getElementById("num");
+			var n = Number(numInput.value);
+			var linhaDeAsteriscos = [];
+	 		// criar variável para armazenar linha de asteriscos e contador
+	 		var index, linhaDeAsteriscos = "";
+
+			// percorrer de 0 até n, concatenando um "*" a cada turno
+			for(index = 0; index < n; index++) {
+				linhaDeAsteriscos += "*";  
+			}
+
+			// criar "n" linhas de asteriscos  
+   			for(index = 0; index < n; index++) {
+				// Tip: Para gerar quebra de linha em uma text-box, use as tags "\r\n";
+				textOutput.innerHTML += linhaDeAsteriscos + "\r\n";  
+   			}
+		}
+	</script>
+</body>
+</html>
