@@ -13,8 +13,8 @@ Os exemplos do Mundo 1 foram criados com base no Curso Introdutório de JavaScri
 #### Exemplos
 * [Gerador de Números Primos](https://iasmin-br.github.io/Ex.%2038%20-%20Verificador%20de%20pal%C3%ADndromo/index.html)
 * [Verificador de Palíndromo](https://iasmin-br.github.io/Ex.%2038%20-%20Verificador%20de%20pal%C3%ADndromo/index.html)
-* [Calculadora básica](https://iasmin-br.github.io/Calculadora/index.htmlf)
-* [Contador de letras repetidas](https://iasmin-br.github.io/Contador%20de%20letras%20repetidas/index.html)
+* [Calculadora Básica](https://iasmin-br.github.io/Calculadora/index.htmlf)
+* [Contador de Letras Repetidas](https://iasmin-br.github.io/Contador%20de%20letras%20repetidas/index.html)
 
 Para realizar o Curso Introdutório de JavaScript oferecido pela Trybe e aprender passo-a-passo o código por trás desses exemplos, basta acessar:
 👉 https://freecourse.betrybe.com/
