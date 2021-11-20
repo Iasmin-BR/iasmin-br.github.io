@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Verificador de Palíndromo</title>
+</head>	
+</head>
+<body>
+	<main>
+		<div id="entrada">
+			<h1>🌎 Verificador de Palíndromo</h1>
+			<p>Esta função recebe uma palavra e verifica se ela é ou não é um palíndromo.</p>
+				<p>
+					<h2>Digite uma palavra</h2>
+						<input name="inputPalavra" id="inputPalavra" type="text">
+					<h2>Aperte o botão ao lado para prosseguir ➜ <input type="button" value="Verificar" onclick="palindromo()"></h2> 
+				</p>
+		</div>
+		<div id="resultado">
+			<h2>🛸 Resultado</h2>
+			<p>Preencha os dados acima e aperte o botão.</p>
+		</div>
+		<aside>
+			<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" align="left" width="75">
+			<p>Quer ter acesso aos <strong>códigos-fonte</strong> desses exemplos? <br>Acesse a minha <a href="https://github.com/Iasmin-BR/iasmin-br.github.io" target="_blank">página de repositório no GitHub</a> e navegue pelas pastas de cada projeto.</p>
+		</aside>
+	</main>
+	<script>
+		function palindromo() {
+			var forPalavra = document.getElementById('inputPalavra')
+			//Usei o método "toLowerCase()" para que a comparação seja indiferente a maiúsculas ou minúsculas.
+			var palavra = String(forPalavra.value.toLowerCase())
+            var palavraInvertida = ""; // cria variável auxiliar para armazenar a palavra invertida.
+            for (var index = palavra.length - 1; index >= 0; index--) { // percorre posições de trás para frente.
+                palavraInvertida += palavra[index]; // a cada turno, atualiza a variável palavra invertida com a letra inspecionada pelo loop for.
+            }
+            if (palavra == palavraInvertida) {
+                window.alert("SIM, SOU UM PALÍNDROMO!")
+            } else {
+                window.alert("INFELIZMENTE, NÃO SOU UM PALÍNDROMO!")
+            }
+		}
+	</script>
+</body>
+</html>
