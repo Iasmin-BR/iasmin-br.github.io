@@ -31,7 +31,8 @@ strong {
 }
 
 #textOutput {
-    font: 15pt Arial;
+    font: 20pt Arial;
+    margin: auto;
 }
 
 a {

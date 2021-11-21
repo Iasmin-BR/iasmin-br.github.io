@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<html>
+<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Calculadora</title>
+</head>	
+</head>
+<body>
+	<main>
+		<div id="formulario">
+			
+			<h1>🌎 Calculadora simples</h1>
+			<p>Esta função recebe dois números oferecidos pela pessoa usuária e retorna o resultado da operação escolhida.</p>
+			<form action="#" method="get">
+				<input type="number" name="primNum" id="primeiroNumero">
+				<select name="operadores" id="operador">
+					<option value="+">somar</option>
+					<option value="-">subtrair</option>
+				</select>
+				<input type="number" name="segNum" id="segundoNumero">
+				<input type="submit" name="calc" value="Calcular" id="botão" formaction="javascript:calcular()">
+			</form>
+		</div>
+		<div id="resultado">
+			<h2>🛸 Resultado</h2>
+			<p>Digite dois números nos campos acima, escolha uma operação aritmética e clique no botão "calcular" para conferir o resultado abaixo.</p>
+			<textarea id="textOutput" rows="10" cols="40" readonly></textarea>
+		</div>
+		<aside>
+			<img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" align="left" width="75">
+			<p>Quer ter acesso aos <strong>códigos-fonte</strong> desses exemplos? <br>Acesse a minha <a href="https://github.com/Iasmin-BR/iasmin-br.github.io" target="_blank">página de repositório no GitHub</a> e navegue pelas pastas de cada projeto.</p>
+		</aside>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>

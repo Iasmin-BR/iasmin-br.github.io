@@ -30,6 +30,10 @@ strong {
 	color: darkgoldenrod;
 }
 
+#textOutput {
+    font: 15pt Arial;
+}
+
 a {
     color: blue;
     font-weight: bolder;
